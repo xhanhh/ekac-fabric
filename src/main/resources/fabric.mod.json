@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ekac",
+  "version": "${version}",
+
+  "name": "ekaC",
+  "description": "This is a Cake!!!",
+  "authors": [
+    "归去来兮辞(xci)"
+  ],
+  "contact": {
+    "homepage": "https://emotime.cn",
+    "sources": "https://github.com/emotime/ekac-fabric"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/ekac/textures/item/ekac.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.emotime.ekac.ekaC"
+    ]
+  },
+  "mixins": [
+    "ekac.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
