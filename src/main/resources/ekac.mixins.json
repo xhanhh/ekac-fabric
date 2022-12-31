@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.ilov.mcmods.ekac.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ekaCMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
