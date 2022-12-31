@@ -1,6 +1,6 @@
-package cn.emotime.ekac;
+package top.ilov.mcmods.ekac;
 
-import cn.emotime.ekac.blocks.Blocks;
+import top.ilov.mcmods.ekac.blocks.Blocks;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +15,6 @@ public class ekaC implements ModInitializer {
 
 		Blocks.registerModBlocks();
 		LOGGER.info("Hello ekaC!");
+
 	}
 }

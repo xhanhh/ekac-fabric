@@ -1,6 +1,6 @@
-package cn.emotime.ekac.blocks;
+package top.ilov.mcmods.ekac.blocks;
 
-import cn.emotime.ekac.itemGroup;
+import top.ilov.mcmods.ekac.itemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.CakeBlock;
@@ -11,7 +11,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import cn.emotime.ekac.ekaC;
+import top.ilov.mcmods.ekac.ekaC;
 
 public class Blocks {
 

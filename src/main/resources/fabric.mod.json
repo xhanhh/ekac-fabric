@@ -4,13 +4,14 @@
   "version": "${version}",
 
   "name": "ekaC",
-  "description": "This is a Cake!!!",
+  "description": "Inverted cake.",
   "authors": [
-    "归去来兮辞(xci)"
+    "xhanhh"
   ],
   "contact": {
-    "homepage": "https://emotime.cn",
-    "sources": "https://github.com/emotime/ekac-fabric"
+    "homepage": "https://github.com/xhanhh",
+    "sources": "https://github.com/xhanhh/ekac-fabric",
+    "issues": "https://github.com/xhanhh/ekac-fabric/issues"
   },
 
   "license": "GNU GPLv3",
@@ -19,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "cn.emotime.ekac.ekaC"
+      "top.ilov.mcmods.ekac.ekaC"
     ]
   },
   "mixins": [
@@ -29,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": ">1.16.5",
     "java": ">=17"
   },
   "suggests": {
