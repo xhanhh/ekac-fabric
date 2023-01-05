@@ -1,5 +1,6 @@
 package top.ilov.mcmods.ekac.blocks;
 
+import net.minecraft.sound.BlockSoundGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import top.ilov.mcmods.ekac.itemGroup;
@@ -19,7 +20,7 @@ public class Blocks {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(ekaC.MOD_ID);
 
-    public static final CakeBlock EKAC = registerBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5f)), itemGroup.TAB);
+    public static final CakeBlock EKAC = registerBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5f).sounds(BlockSoundGroup.WOOL)), itemGroup.TAB);
 
     private static CakeBlock registerBlock(String name, CakeBlock block, ItemGroup group) {
 
