@@ -19,7 +19,7 @@ public class Blocks {
 
     public static final Logger LOGGER = LogManager.getLogger("ekaC");
 
-    public static final CakeBlock EKAC = registerBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(1.5f)), itemGroup.TAB);
+    public static final CakeBlock EKAC = registerBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5f)), itemGroup.TAB);
 
     private static CakeBlock registerBlock(String name, CakeBlock block, ItemGroup group) {
 
