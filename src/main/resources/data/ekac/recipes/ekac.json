@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:wheat"
+    },
+
+    "B":
+    {
+      "item": "minecraft:sugar"
+
+    },
+
+    "C":
+    {
+      "item": "minecraft:egg"
+    },
+    "D":
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+
+  "result":
+  {
+    "item": "ekac:ekac",
+    "count": 1
+  }
+}
