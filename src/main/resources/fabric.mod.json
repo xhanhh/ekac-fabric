@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "ekac",
+  "version": "${version}",
+
+  "name": "ekaC",
+  "description": "Inverted cake.",
+  "authors": [
+    "xhanhh (Myxhan)"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/ekac",
+    "sources": "https://github.com/xhanhh/ekac-fabric",
+    "issues": "https://github.com/xhanhh/ekac-fabric/issues"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/ekac/textures/item/ekac.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.ilov.mcmods.ekac.ekaC"
+    ]
+  },
+  "mixins": [
+    "ekac.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": ">=1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
