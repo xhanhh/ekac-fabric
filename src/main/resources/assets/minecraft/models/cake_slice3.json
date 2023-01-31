@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "ekac:block/ekac/ekac_side",
+        "bottom": "ekac:block/ekac/ekac_bottom",
+        "top": "ekac:block/ekac/ekac_top",
+        "side": "ekac:block/ekac/ekac_side",
+        "inside": "ekac:block/ekac/ekac_inner"
+    },
+    "elements": [
+        {   "from": [ 7, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}
