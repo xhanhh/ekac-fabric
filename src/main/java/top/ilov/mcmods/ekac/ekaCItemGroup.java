@@ -24,6 +24,7 @@ public class ekaCItemGroup {
 
         entries.add(ekaCBlocksRegistry.ekac);
         entries.add(ekaCItemsRegistry.ekac_hat);
+        entries.add(ekaCItemsRegistry.portable_ekac);
 
     }
 
