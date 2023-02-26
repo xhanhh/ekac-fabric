@@ -27,6 +27,6 @@ public class ekaCItemGroup {
 
     }
 
-    public static void register() {}
+    public static void registerItemGroup() {}
 
 }

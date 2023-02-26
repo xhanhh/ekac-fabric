@@ -16,7 +16,7 @@ public class ekaCMod implements ModInitializer {
 
 		ekaCBlocksRegistry.registerModBlocks();
 		ekaCItemsRegistry.registerModItems();
-		ekaCItemGroup.register();
+		ekaCItemGroup.registerItemGroup();
 
 	}
 }
