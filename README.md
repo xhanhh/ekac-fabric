@@ -1,7 +1,7 @@
 # ekac-fabric
 This is a little mod that add a inverted cake.
 
-Now support Minecraft fabric 1.16.2-1.19.2
+Now support Minecraft fabric 1.16.2-1.19.3
 
 The Forge ver. see <a _blank href="https://github.com/xhanhh/ekac-forge">ekac-forge</a>.
 
