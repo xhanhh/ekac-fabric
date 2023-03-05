@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "ekaC",
-  "description": "Inverted cake.",
+  "description": "This mod that adds some inverted tings.",
   "authors": [
     "xhanhh (Myxhan)"
   ],
@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.ilov.mcmods.ekac.ekaC"
+      "top.ilov.mcmods.ekac.ekaCMod"
     ]
   },
   "mixins": [

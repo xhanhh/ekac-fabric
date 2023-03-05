@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "   ",
+    "BAB",
+    "   "
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "ekac:ekac_hat"
+    },
+
+    "B":
+    {
+      "item": "minecraft:sugar"
+
+    }
+  },
+
+  "result":
+  {
+    "item": "ekac:ekac",
+    "count": 1
+  }
+}

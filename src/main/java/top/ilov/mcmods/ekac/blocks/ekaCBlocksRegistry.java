@@ -12,25 +12,25 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import top.ilov.mcmods.ekac.ekaC;
+import top.ilov.mcmods.ekac.ekaCMod;
 
-public class ekacModBlocks {
+public class ekaCBlocksRegistry {
 
-    public static final Logger LOGGER = LoggerFactory.getLogger(ekaC.MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger(ekaCMod.MOD_ID);
 
-    public static final CakeBlock ekac = registerCakeBlock("ekac", new ekacBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5F)
+    public static final CakeBlock ekac = registerCakeBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5F)
             .sounds(BlockSoundGroup.WOOL)));
 
     private static CakeBlock registerCakeBlock(String name, CakeBlock block) {
 
         registerCakeBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(ekaC.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ekaCMod.MOD_ID, name), block);
 
     }
 
     private static Item registerCakeBlockItem(String name, CakeBlock block) {
 
-        return Registry.register(Registries.ITEM, new Identifier(ekaC.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, new Identifier(ekaCMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
 
     }
 

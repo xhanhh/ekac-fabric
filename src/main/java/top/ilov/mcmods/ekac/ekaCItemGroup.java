@@ -6,12 +6,13 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import top.ilov.mcmods.ekac.blocks.ekacModBlocks;
+import top.ilov.mcmods.ekac.blocks.ekaCBlocksRegistry;
+import top.ilov.mcmods.ekac.items.ekaCItemsRegistry;
 
 public class ekaCItemGroup{
 
-    public static final ItemGroup itemGroup = FabricItemGroup.builder(new Identifier(ekaC.MOD_ID, "tab"))
-            .icon(() -> new ItemStack(ekacModBlocks.ekac)).build();
+    public static final ItemGroup itemGroup = FabricItemGroup.builder(new Identifier(ekaCMod.MOD_ID, "tab"))
+            .icon(() -> new ItemStack(ekaCBlocksRegistry.ekac)).build();
 
     static {
 
@@ -21,10 +22,12 @@ public class ekaCItemGroup{
 
     protected static void setItemGroup(FabricItemGroupEntries entries) {
 
-        entries.add(ekacModBlocks.ekac);
+        entries.add(ekaCBlocksRegistry.ekac);
+        entries.add(ekaCItemsRegistry.ekac_hat);
+        entries.add(ekaCItemsRegistry.portable_ekac);
 
     }
 
-    public static void register() {}
+    public static void registerItemGroup() {}
 
 }

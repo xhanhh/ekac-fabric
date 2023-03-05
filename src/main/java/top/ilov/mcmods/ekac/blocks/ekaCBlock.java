@@ -10,9 +10,9 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class ekacBlock extends CakeBlock {
+public class ekaCBlock extends CakeBlock {
 
-    public ekacBlock(Settings settings) {
+    public ekaCBlock(Settings settings) {
         super(settings);
     }
 

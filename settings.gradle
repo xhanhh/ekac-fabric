@@ -4,6 +4,14 @@ pluginManagement {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }
+        maven {
+            name = 'aliyun'
+            url = 'https://maven.aliyun.com/repository/public/'
+        }
+        maven {
+            name = 'aliyun-apache'
+            url = 'https://maven.aliyun.com/repository/apache-snapshots'
+        }
         mavenCentral()
         gradlePluginPortal()
     }
