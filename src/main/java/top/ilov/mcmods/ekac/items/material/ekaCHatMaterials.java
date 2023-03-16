@@ -73,8 +73,4 @@ public enum ekaCHatMaterials implements ArmorMaterial {
         return this.knockbackResistance;
     }
 
-    public boolean isTrimmable() {
-        return this.trimmable;
-    }
-
 }
