@@ -10,10 +10,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import top.ilov.mcmods.ekac.ekaC;
+import top.ilov.mcmods.ekac.ekaCMod;
 import top.ilov.mcmods.ekac.ekaCItemGroup;
 
-public class ekacModBlocks {
+public class ekaCBlocksRegistry {
 
     public static final CakeBlock EKAC = registerCakeBlock("ekac", new ekaCBlock(FabricBlockSettings.of(Material.CAKE).hardness(0.5f).sounds(BlockSoundGroup.WOOL)),
             ekaCItemGroup.itemgroup);
@@ -21,18 +21,18 @@ public class ekacModBlocks {
     private static CakeBlock registerCakeBlock(String name, CakeBlock block, ItemGroup group) {
 
         registerCakeBlockItem(name, block, group);
-        return Registry.register(Registry.BLOCK, new Identifier(ekaC.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(ekaCMod.MOD_ID, name), block);
 
     }
 
     private static Item registerCakeBlockItem(String name, CakeBlock block, ItemGroup group) {
 
-        return Registry.register(Registry.ITEM, new Identifier(ekaC.MOD_ID, name), new BlockItem(block, new FabricItemSettings().group(group)));
+        return Registry.register(Registry.ITEM, new Identifier(ekaCMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings().group(group)));
 
     }
 
     public static void registerModBlocks() {
-        ekaC.LOGGER.debug("Registering ekac block.");
+        ekaCMod.LOGGER.debug("Registering ekac block.");
     }
 
 }

@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.ilov.mcmods.ekac.ekaC"
+      "top.ilov.mcmods.ekac.ekaCMod"
     ]
   },
   "mixins": [
