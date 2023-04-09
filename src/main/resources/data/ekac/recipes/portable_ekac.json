@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "AB ",
+    "BA ",
+    "   "
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:wheat"
+    },
+
+    "B":
+    {
+      "item": "minecraft:sugar"
+
+    }
+  },
+
+  "result":
+  {
+    "item": "ekac:portable_ekac",
+    "count": 2
+  }
+}
