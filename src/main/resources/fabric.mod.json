@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ekac",
+  "version": "${version}",
+
+  "name": "ekaC",
+  "description": "This mod that adds some inverted things.",
+  "authors": [
+    "xhanhh(Myxhan)"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/ekac",
+    "sources": "https://github.com/xhanhh/ekac-fabric"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/ekac/textures/item/ekac.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.ilov.mcmods.ekac.ekaCMod"
+    ]
+  },
+  "mixins": [
+    "ekac.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
