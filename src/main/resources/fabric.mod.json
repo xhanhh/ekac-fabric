@@ -13,13 +13,16 @@
     "sources": "https://github.com/xhanhh/ekac-fabric"
   },
 
-  "license": "GNU GPLv3",
+  "license": "GNU GPLv3 or later",
   "icon": "assets/ekac/textures/item/ekac.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "top.ilov.mcmods.ekac.ekaCMod"
+    ],
+    "modmenu": [
+      "top.ilov.mcmods.ekac.integration.EkacModMenu"
     ]
   },
   "mixins": [
@@ -33,6 +36,9 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
+  },
+  "dependencies": {
+    "yet_another_config_lib": "^3.0.1+1.20"
   }
 }

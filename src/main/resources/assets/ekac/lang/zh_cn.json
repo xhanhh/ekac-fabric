@@ -2,5 +2,9 @@
   "itemGroup.ekac.tab": "糕蛋",
   "block.ekac.ekac": "糕蛋",
   "item.ekac.ekac_hat": "糕蛋帽",
-  "item.ekac.portable_ekac": "便携式糕蛋"
+  "item.ekac.portable_ekac": "便携式糕蛋",
+
+  "config.ekac.title": "糕蛋 - 配置文件",
+  "config.ekac.category": "通用",
+  "config.ekac.enable-check-update": "允许在启动时检查模组更新"
 }

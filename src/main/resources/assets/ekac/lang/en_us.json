@@ -2,5 +2,9 @@
   "itemGroup.ekac.tab": "ekaC Tab",
   "block.ekac.ekac": "ekaC",
   "item.ekac.ekac_hat": "ekaC Hat",
-  "item.ekac.portable_ekac": "Portable ekaC"
+  "item.ekac.portable_ekac": "Portable ekaC",
+
+  "config.ekac.title": "ekaC Config",
+  "config.ekac.category": "General",
+  "config.ekac.enable-check-update": "Enable check for update"
 }
