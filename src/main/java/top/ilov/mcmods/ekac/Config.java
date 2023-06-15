@@ -2,7 +2,6 @@ package top.ilov.mcmods.ekac;
 
 import dev.isxander.yacl3.api.ConfigCategory;
 import dev.isxander.yacl3.api.Option;
-import dev.isxander.yacl3.api.OptionFlag;
 import dev.isxander.yacl3.api.YetAnotherConfigLib;
 import dev.isxander.yacl3.api.controller.BooleanControllerBuilder;
 import dev.isxander.yacl3.config.ConfigEntry;
@@ -33,7 +32,6 @@ public class Config {
                                         val -> config1.checkForUpdate = val
                                 )
                                 .controller(BooleanControllerBuilder::create)
-                                .flag(OptionFlag.GAME_RESTART)
                                 .build())
                         .build()))
                 .generateScreen(screen);
