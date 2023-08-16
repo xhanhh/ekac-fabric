@@ -1,9 +1,8 @@
 # ekac-fabric
+### New version: [Cake delight](https://github.com/xhanhh/CakeDelight-fabric)
 This is a little mod that add a inverted cake.
 
-Now support Minecraft fabric 1.16.2-1.19.3
-
-The Forge ver. see <a _blank href="https://github.com/xhanhh/ekac-forge">ekac-forge</a>.
+Now support Minecraft fabric 1.16.2-1.20.1
 
 ## 下载
 请您从以下平台下载发行版：<a target="_blank" href="https://www.curseforge.com/minecraft/mc-mods/ekac">CurseForge</a> | <a target="_blank" href="https://modrinth.com/mod/ekac">Modrinth</a>
